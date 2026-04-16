@@ -1,5 +1,6 @@
-import type { FilterCriteria, FilterList, QueryObject } from '@buildone/app-server-tslib/utils';
 import { isFilterList } from '@buildone/app-server-tslib/utils';
+
+import type { FilterCriteria, FilterList, QueryObject } from '@buildone/app-server-tslib/utils';
 
 /**
  * Translates a B1 QueryObject into OData v4 query parameters.
@@ -58,7 +59,7 @@ function criteriaToOData(c: FilterCriteria): string {
 }
 
 function filterListToOData(list: FilterList<unknown>): string {
-  const parts = list.filters.map(f => {
+  const parts = list.filters.map((f) => {
     if (isFilterList(f)) return `(${filterListToOData(f as FilterList<unknown>)})`;
     return criteriaToOData(f as FilterCriteria);
   });
