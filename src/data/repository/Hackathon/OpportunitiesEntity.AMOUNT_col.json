@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-04-16 12:47:05.366284",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Opportunity Amount column",
+  "objectExtension": "",
+  "objectMasterGuid": "f3d3deae-a5e8-4e9e-82d6-c193924d1e6f",
+  "objectName": "OpportunitiesEntity.AMOUNT_col",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "3b92f1e0-b3f6-484b-a8c8-a76e3b742c09",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "dataType": "DECIMAL",
+    "label": "Amount"
+  },
+  "instances": [],
+  "links": [],
+  "tags": []
+}

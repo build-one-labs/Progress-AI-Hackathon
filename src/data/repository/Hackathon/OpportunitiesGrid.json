@@ -1,0 +1,67 @@
+{
+  "createdAt": "2026-04-16 12:47:20.140516",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Grid displaying Salesforce Opportunities from HDP connector",
+  "objectExtension": "",
+  "objectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+  "objectName": "OpportunitiesGrid",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "63d81ac2-8555-44e1-9032-7064448799c4",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "borderTitle": "Opportunities"
+  },
+  "instances": [
+    {
+      "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+      "instanceName": "NAME",
+      "objectInstanceGuid": "8815aee9-6b13-41c5-a173-f571127a6a76",
+      "objectMasterGuid": "464481bc-b55f-4c60-9a9b-917b4dc9678e",
+      "objectSequence": 1,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+      "instanceName": "AMOUNT",
+      "objectInstanceGuid": "b2803f0d-b9fb-4997-a3ea-8497b6422bc5",
+      "objectMasterGuid": "f3d3deae-a5e8-4e9e-82d6-c193924d1e6f",
+      "objectSequence": 2,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+      "instanceName": "CLOSEDATE",
+      "objectInstanceGuid": "f41ef0b8-a150-4f73-8bfb-5c2d66c5bed2",
+      "objectMasterGuid": "e7ed8f0a-19f4-4a70-926d-93df44281c21",
+      "objectSequence": 3,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+      "instanceName": "STAGENAME",
+      "objectInstanceGuid": "0f1ef312-e6f0-4910-83a5-f1544e5aef34",
+      "objectMasterGuid": "868fa158-d07a-4242-ae56-3cad13faf085",
+      "objectSequence": 4,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+      "instanceName": "PROBABILITY",
+      "objectInstanceGuid": "fb7b436d-b1c5-40cd-a345-66478d85e724",
+      "objectMasterGuid": "437e64f5-ad5e-4bd1-883f-83d90a67585e",
+      "objectSequence": 5,
+      "attributes": {},
+      "instances": []
+    }
+  ],
+  "links": [],
+  "tags": []
+}

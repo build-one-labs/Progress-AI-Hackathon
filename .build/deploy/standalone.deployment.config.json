@@ -1,14 +1,20 @@
 {
   "$schema": "deployment.config.schema.json",
   "globals": {
-    "dataImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/starter/starter-data:${VERSION}",
-    "appServerTsImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/starter/starter-app-server-ts:${VERSION}",
-    "webAppImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/starter/starter-web-app:${VERSION}"
+    "dataImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/ai-hackathon/ai-hackathon-data:${VERSION}",
+    "appServerTsImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/ai-hackathon/ai-hackathon-app-server-ts:${VERSION}",
+    "webAppImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/ai-hackathon/ai-hackathon-web-app:${VERSION}"
   },
   "services": {
     "swat_app_server_ts": {
       "environment": {
         "B1_DEFAULT_APP": "${B1_DEFAULT_APP:-sample-app}"
+      }
+    },
+    "app_server_ts": {
+      "environment": {
+        "HDP_USERNAME": "${HDP_USERNAME:-d2cadmin}",
+        "HDP_PASSWORD": "${HDP_PASSWORD}"
       }
     }
   }
