@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-04-16 12:46:29.467015",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Opportunity Stage",
+  "objectExtension": "",
+  "objectMasterGuid": "7bac94ff-f58c-4849-8df6-d0c38fa462bf",
+  "objectName": "OpportunitiesEntity.StageName",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "81ab8689-1656-4bde-8797-fc9441cacd7e",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "label": "Stage"
+  },
+  "instances": [],
+  "links": [],
+  "tags": []
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "moduleDataFolder": "AutomationFlows",
+    "moduleDescription": "Objects of b1_automation_flow type",
+    "moduleGuid": "c00fe3fe-ba2d-8ba4-c514-7d55908fa33b",
+    "moduleName": "B1 Automation Flows",
+    "productGuid": "b4082505-d6a7-8eb1-4314-3963ac86a99e",
+    "systemOwned": false,
+    "modulePackage": null
+  },
+  {
+    "moduleDataFolder": "Hackathon",
+    "moduleDescription": "AI Hackathon Application",
+    "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+    "moduleName": "Hackathon",
+    "modulePackage": "Hackathon",
+    "productGuid": "25939fd8-5643-4829-92c2-6cf1eaef48b3",
+    "systemOwned": false
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-04-16 12:46:21.932921",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Opportunity Probability",
+  "objectExtension": "",
+  "objectMasterGuid": "d0ccf66b-3ea2-49cb-90b4-5f1bead0db72",
+  "objectName": "OpportunitiesEntity.Probability",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "81ab8689-1656-4bde-8797-fc9441cacd7e",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "dataType": "DECIMAL",
+    "label": "Probability"
+  },
+  "instances": [],
+  "links": [],
+  "tags": []
+}

@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-04-16 12:46:15.824974",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Opportunity Amount",
+  "objectExtension": "",
+  "objectMasterGuid": "2da9fdd4-116b-4bae-a972-462fe4a0c039",
+  "objectName": "OpportunitiesEntity.Amount",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "81ab8689-1656-4bde-8797-fc9441cacd7e",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "dataType": "DECIMAL",
+    "label": "Amount"
+  },
+  "instances": [],
+  "links": [],
+  "tags": []
+}

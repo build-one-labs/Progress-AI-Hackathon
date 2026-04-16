@@ -1,0 +1,88 @@
+{
+  "createdAt": "2026-04-16 11:44:35.143327",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Created from template SimpleSearch",
+  "objectExtension": "",
+  "objectMasterGuid": "a9bb5574-d85a-4ccd-81a8-d7193ae28aa1",
+  "objectName": "OpportunitiesScreen",
+  "objectPackage": "",
+  "objectTypeGuid": "d188099d-8548-49f0-86e4-c4b28dda9ecc",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "layout": "1C",
+    "title": "Opportunities"
+  },
+  "instances": [
+    {
+      "instanceName": "OpportunitiesDSO",
+      "objectInstanceGuid": "823be66f-9793-416c-bb53-807cecb6649e",
+      "objectMasterGuid": "3842647c-2b25-4c3f-a813-3d0cf96ffa90",
+      "objectSequence": 1,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "instanceName": "GridSimpleToolbar",
+      "objectInstanceGuid": "03419466-5ae8-4ba6-b392-c65357ba73a5",
+      "objectMasterGuid": "3df14ddf-18de-403c-bca0-38b22d4a63f9",
+      "objectSequence": 3,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "instanceName": "a",
+      "layoutPosition": "a",
+      "objectInstanceGuid": "39728a40-cfe6-4e1f-a817-3f525ccb155c",
+      "objectMasterGuid": "31572117-2fe3-4262-ba03-20a74c6b59ca",
+      "objectSequence": 4,
+      "attributes": {},
+      "instances": [
+        {
+          "instanceName": "OpportunitiesGrid",
+          "objectInstanceGuid": "ac0e6de2-4e87-43b5-8a46-acf910751e50",
+          "objectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
+          "objectSequence": 2,
+          "attributes": {},
+          "instances": []
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "linkGuid": "d0bb32f8-0e46-47c8-b8f5-e989e12a5835",
+      "linkName": "Primary",
+      "linkTypeGuid": "c21ecef7-8939-4534-b458-66945464b796",
+      "sourceObjectInstanceGuid": "",
+      "targetObjectInstanceGuid": "823be66f-9793-416c-bb53-807cecb6649e"
+    },
+    {
+      "linkGuid": "63a83bbe-73b0-4d0e-a99b-699065b32918",
+      "linkName": "Data",
+      "linkTypeGuid": "d37727fb-24ff-7ea3-0e14-a5d9d8526f38",
+      "sourceObjectInstanceGuid": "823be66f-9793-416c-bb53-807cecb6649e",
+      "targetObjectInstanceGuid": "ac0e6de2-4e87-43b5-8a46-acf910751e50"
+    },
+    {
+      "linkGuid": "a49d93d3-74c9-4854-b20d-a72b78365977",
+      "linkName": "Filter",
+      "linkTypeGuid": "ac7518d7-ef25-faab-3714-cd9dc06f3864",
+      "sourceObjectInstanceGuid": "ac0e6de2-4e87-43b5-8a46-acf910751e50",
+      "targetObjectInstanceGuid": "823be66f-9793-416c-bb53-807cecb6649e"
+    },
+    {
+      "linkGuid": "f9e648d9-44e7-46e6-9300-1351c3312859",
+      "linkName": "TableIO",
+      "linkTypeGuid": "d37727fb-24ff-7ea3-0e14-a6d9d4d6d61d",
+      "sourceObjectInstanceGuid": "03419466-5ae8-4ba6-b392-c65357ba73a5",
+      "targetObjectInstanceGuid": "ac0e6de2-4e87-43b5-8a46-acf910751e50"
+    }
+  ],
+  "tags": [
+    "Search"
+  ]
+}

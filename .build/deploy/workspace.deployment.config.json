@@ -1,0 +1,11 @@
+{
+  "$schema": "deployment.config.schema.json",
+  "services": {
+    "app_server_ts": {
+      "environment": {
+        "HDP_USERNAME": "${HDP_USERNAME:-d2cadmin}",
+        "HDP_PASSWORD": "${HDP_PASSWORD}"
+      }
+    }
+  }
+}

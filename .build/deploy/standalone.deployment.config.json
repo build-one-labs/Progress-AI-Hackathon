@@ -10,6 +10,12 @@
       "environment": {
         "B1_DEFAULT_APP": "${B1_DEFAULT_APP:-sample-app}"
       }
+    },
+    "app_server_ts": {
+      "environment": {
+        "HDP_USERNAME": "${HDP_USERNAME:-d2cadmin}",
+        "HDP_PASSWORD": "${HDP_PASSWORD}"
+      }
     }
   }
 }

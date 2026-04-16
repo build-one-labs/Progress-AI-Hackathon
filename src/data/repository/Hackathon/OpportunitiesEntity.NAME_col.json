@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-04-16 12:47:02.991658",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "Opportunity Name column",
+  "objectExtension": "",
+  "objectMasterGuid": "464481bc-b55f-4c60-9a9b-917b4dc9678e",
+  "objectName": "OpportunitiesEntity.NAME_col",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "3b92f1e0-b3f6-484b-a8c8-a76e3b742c09",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "dataType": "CHARACTER",
+    "label": "Name"
+  },
+  "instances": [],
+  "links": [],
+  "tags": []
+}

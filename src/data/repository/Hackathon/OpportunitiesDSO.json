@@ -1,0 +1,23 @@
+{
+  "createdAt": "2026-04-16 11:58:40.980441",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "HDP Salesforce Opportunities data source via OData v4",
+  "objectExtension": "",
+  "objectMasterGuid": "3842647c-2b25-4c3f-a813-3d0cf96ffa90",
+  "objectName": "OpportunitiesDSO",
+  "objectPackage": "Hackathon",
+  "objectTypeGuid": "171ce169-e586-495a-9257-0982d1bc4eb0",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "keyFields": "Id",
+    "resourceName": "service/app/api/connector/hdp/OPPORTUNITIES",
+    "subtype": "DataConnector"
+  },
+  "instances": [],
+  "links": [],
+  "tags": []
+}
