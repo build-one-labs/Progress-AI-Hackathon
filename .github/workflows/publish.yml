@@ -7,8 +7,8 @@ on:
 env:
   AWS_REGION: eu-central-1
 
-  DOCKER_REPOSITORY: 653306034207.dkr.ecr.eu-central-1.amazonaws.com/starter
-  APP_NAME: starter
+  DOCKER_REPOSITORY: 653306034207.dkr.ecr.eu-central-1.amazonaws.com/b1-apps
+  APP_NAME: ai-hackathon
 
 jobs:
   publish-app-server-ts:
