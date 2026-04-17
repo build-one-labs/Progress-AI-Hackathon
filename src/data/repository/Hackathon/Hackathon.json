@@ -14,12 +14,14 @@
   "templateObject": false,
   "attributes": {
     "colorScheme": "light",
-    "initialScreen": "frameworkSidebarMenuScreen",
+    "initialScreen": "aiHackathonHome",
     "logoLarge": "",
     "logoSmall": "",
     "mainLayoutScreen": "taskbarMainLayout"
   },
+  "createdBy": null,
   "instances": [],
   "links": [],
-  "tags": []
+  "tags": [],
+  "tenantId": null
 }

@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-03-25 09:28:48.535875",
+  "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "AI Hackathon Agent",
+  "objectExtension": "",
+  "objectMasterGuid": "720e73bc-7eba-48a9-aaa3-cea25cf395e3",
+  "objectName": "AiHackathonAgent",
+  "objectPackage": "",
+  "objectTypeGuid": "061d6de8-56e1-43c2-9887-8b8892d967e7",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "agentEnvironment": "",
+    "model": "anthropic/claude-opus-4-6",
+    "systemPrompt": "SampleAgentsKnowledgeBasePrompt"
+  },
+  "instances": [
+    {
+      "containerObjectMasterGuid": "6a07137e-f90a-4b1e-8160-b7dff7a2fed1",
+      "instanceName": "SkillPinScreen",
+      "objectInstanceGuid": "09b98fd4-03fb-4966-bc53-d1cf2da93f88",
+      "objectMasterGuid": "ce36cf9b-0213-420f-ae62-355e1147b4bd",
+      "seq": 1,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "6a07137e-f90a-4b1e-8160-b7dff7a2fed1",
+      "instanceName": "SkillShareScreen",
+      "objectInstanceGuid": "6ca23068-9aaa-42f8-aefe-c18c55dc698f",
+      "objectMasterGuid": "37bb7ff2-086e-4f90-883e-0c1ed5fbb689",
+      "seq": 2,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "6a07137e-f90a-4b1e-8160-b7dff7a2fed1",
+      "instanceName": "SkillRefreshKnowledge",
+      "objectInstanceGuid": "dd0559e2-919b-418e-ba82-dc5f0ba6ff3f",
+      "objectMasterGuid": "a72be040-5d9a-400c-a4c8-91e5b660e005",
+      "seq": 3,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "6a07137e-f90a-4b1e-8160-b7dff7a2fed1",
+      "instanceName": "SkillCreateChart",
+      "objectInstanceGuid": "1c03191a-574e-4548-b176-fdac59b1e387",
+      "objectMasterGuid": "dfd8af22-2067-4de7-8720-7346efc0ba68",
+      "seq": 4,
+      "attributes": {},
+      "instances": []
+    }
+  ],
+  "links": [],
+  "tags": [],
+  "tenantId": null
+}

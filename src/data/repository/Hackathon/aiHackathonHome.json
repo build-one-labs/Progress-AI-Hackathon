@@ -1,0 +1,144 @@
+{
+  "createdAt": "2026-03-12 12:14:44.342839",
+  "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "AI Hackathon home screen (copy of miniAppHome)",
+  "objectExtension": "",
+  "objectMasterGuid": "e55f80eb-7d4c-42a4-b40d-397b5903a2ac",
+  "objectName": "aiHackathonHome",
+  "objectPackage": "",
+  "objectTypeGuid": "d188099d-8548-49f0-86e4-c4b28dda9ecc",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "eventNamespace": "#",
+    "layout": "3T",
+    "title": "Home"
+  },
+  "instances": [
+    {
+      "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+      "instanceName": "tasksDSO",
+      "objectInstanceGuid": "3e046668-0702-4df0-901e-792b62063965",
+      "objectMasterGuid": "cf59c628-a232-4b83-b6d4-f1c409fa4a28",
+      "objectSequence": 1,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+      "instanceName": "a",
+      "layoutPosition": "a",
+      "objectInstanceGuid": "51bce8b9-adfe-42bb-9863-556f74d67bc8",
+      "objectMasterGuid": "31572117-2fe3-4262-ba03-20a74c6b59ca",
+      "objectSequence": 3,
+      "attributes": {},
+      "instances": [
+        {
+          "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+          "instanceName": "tasksForm",
+          "objectInstanceGuid": "311088a5-8fe6-4a96-aa09-fc81ca7b502d",
+          "objectMasterGuid": "1e6ae77d-9dc6-4c4e-a15d-47374f4f42d7",
+          "objectSequence": 1,
+          "attributes": {},
+          "instances": []
+        }
+      ]
+    },
+    {
+      "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+      "instanceName": "c",
+      "layoutPosition": "c",
+      "objectInstanceGuid": "01a90cf0-88fc-4cde-a536-b0ea02ac9b4b",
+      "objectMasterGuid": "31572117-2fe3-4262-ba03-20a74c6b59ca",
+      "objectSequence": 5,
+      "attributes": {
+        "panelMenu": "tasksGridMenu"
+      },
+      "instances": [
+        {
+          "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+          "instanceName": "tasksGrid",
+          "objectInstanceGuid": "f3f15570-6f34-4bad-a89b-227b2c32dfd3",
+          "objectMasterGuid": "924ec1cc-7eb2-404d-9e6c-cd363bdecd3a",
+          "objectSequence": 1,
+          "attributes": {
+            "showGridlines": false,
+            "showHeaders": false
+          },
+          "instances": []
+        }
+      ]
+    },
+    {
+      "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+      "instanceName": "miniAppScreensDso",
+      "objectInstanceGuid": "99467aab-52b3-4c67-adf5-3f3aa73152c9",
+      "objectMasterGuid": "8bacea60-6b43-44a7-9192-3cad363633bd",
+      "objectSequence": 2,
+      "attributes": {},
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+      "instanceName": "b",
+      "layoutPosition": "b",
+      "objectInstanceGuid": "354889d8-0e73-4d50-a1d7-95b6af720538",
+      "objectMasterGuid": "31572117-2fe3-4262-ba03-20a74c6b59ca",
+      "objectSequence": 4,
+      "attributes": {
+        "panelMenu": null
+      },
+      "instances": [
+        {
+          "containerObjectMasterGuid": "8ef59495-3cfd-427d-8942-60421f3cc896",
+          "instanceName": "miniAppsCardView",
+          "objectInstanceGuid": "28e0d8fa-8816-4579-a9ed-ae615191dd26",
+          "objectMasterGuid": "c2617d28-fea3-47ea-a14d-315fa04fab6a",
+          "objectSequence": 1,
+          "attributes": {
+            "borderTitle": "Your Mini-Apps",
+            "panelMenu": "miniAppsCardMenu#NoDropDown",
+            "template": "MiniAppCardTemplate"
+          },
+          "instances": []
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "linkGuid": "99a8ddcf-c038-44f3-8797-92fb452d5ecf",
+      "linkName": "Primary",
+      "linkTypeGuid": "c21ecef7-8939-4534-b458-66945464b796",
+      "sourceObjectInstanceGuid": "",
+      "targetObjectInstanceGuid": "3e046668-0702-4df0-901e-792b62063965"
+    },
+    {
+      "linkGuid": "cf57e664-644b-4e9a-9957-7b579024e0fc",
+      "linkName": "Data",
+      "linkTypeGuid": "d37727fb-24ff-7ea3-0e14-a5d9d8526f38",
+      "sourceObjectInstanceGuid": "3e046668-0702-4df0-901e-792b62063965",
+      "targetObjectInstanceGuid": "f3f15570-6f34-4bad-a89b-227b2c32dfd3"
+    },
+    {
+      "linkGuid": "7ec45992-7d0c-47b8-8507-6a0b7968bca8",
+      "linkName": "Filter",
+      "linkTypeGuid": "ac7518d7-ef25-faab-3714-cd9dc06f3864",
+      "sourceObjectInstanceGuid": "f3f15570-6f34-4bad-a89b-227b2c32dfd3",
+      "targetObjectInstanceGuid": "3e046668-0702-4df0-901e-792b62063965"
+    },
+    {
+      "linkGuid": "629306db-53b8-424c-bc2f-dc47ed1ef5d8",
+      "linkName": "Data",
+      "linkTypeGuid": "d37727fb-24ff-7ea3-0e14-a5d9d8526f38",
+      "sourceObjectInstanceGuid": "99467aab-52b3-4c67-adf5-3f3aa73152c9",
+      "targetObjectInstanceGuid": "28e0d8fa-8816-4579-a9ed-ae615191dd26"
+    }
+  ],
+  "tags": [],
+  "tenantId": null
+}
