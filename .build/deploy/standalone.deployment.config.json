@@ -6,11 +6,6 @@
     "webAppImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/b1-apps/ai-hackathon-web-app:${VERSION}"
   },
   "services": {
-    "swat_app_server_ts": {
-      "environment": {
-        "B1_DEFAULT_APP": "${B1_DEFAULT_APP:-sample-app}"
-      }
-    },
     "app_server_ts": {
       "environment": {
         "HDP_USERNAME": "${HDP_USERNAME:-d2cadmin}",
