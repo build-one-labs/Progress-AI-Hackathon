@@ -1,0 +1,67 @@
+{
+  "createdAt": "2026-03-26 15:57:27.215747",
+  "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "AI Hackathon Sidebar Menu Screen",
+  "objectExtension": "",
+  "objectMasterGuid": "d9490de7-c80e-44c3-86ff-bf75ae1c0af7",
+  "objectName": "HackathonSidebarScreen",
+  "objectPackage": "",
+  "objectTypeGuid": "d188099d-8548-49f0-86e4-c4b28dda9ecc",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "childPanels": false,
+    "layout": "2U"
+  },
+  "instances": [
+    {
+      "containerObjectMasterGuid": "d9490de7-c80e-44c3-86ff-bf75ae1c0af7",
+      "instanceName": "a",
+      "layoutPosition": "a",
+      "objectInstanceGuid": "82b0ed92-3e7c-4638-9ff3-c834e5a9c67a",
+      "objectMasterGuid": "31572117-2fe3-4262-ba03-20a74c6b59ca",
+      "objectSequence": 1,
+      "attributes": {},
+      "instances": [
+        {
+          "containerObjectMasterGuid": "d9490de7-c80e-44c3-86ff-bf75ae1c0af7",
+          "instanceName": "MainSidebar",
+          "objectInstanceGuid": "104f772f-de6c-41aa-9f50-bb3ea95b1cbc",
+          "objectMasterGuid": "f3b27810-4170-0a91-df14-2ced507cc8a3",
+          "objectSequence": 2,
+          "attributes": {
+            "menuId": "HackathonMenu"
+          },
+          "instances": []
+        }
+      ]
+    },
+    {
+      "containerObjectMasterGuid": "d9490de7-c80e-44c3-86ff-bf75ae1c0af7",
+      "instanceName": "b",
+      "layoutPosition": "b",
+      "objectInstanceGuid": "e3c5a7c3-c756-495a-97b3-bf0150679939",
+      "objectMasterGuid": "31572117-2fe3-4262-ba03-20a74c6b59ca",
+      "objectSequence": 2,
+      "attributes": {},
+      "instances": [
+        {
+          "containerObjectMasterGuid": "d9490de7-c80e-44c3-86ff-bf75ae1c0af7",
+          "instanceName": "SidebarScreenContainer",
+          "objectInstanceGuid": "fe7489ae-3578-4a66-af0e-ce87e4f8e802",
+          "objectMasterGuid": "f3b27810-4170-0a91-df14-31ed8803ecf7",
+          "objectSequence": 3,
+          "attributes": {},
+          "instances": []
+        }
+      ]
+    }
+  ],
+  "links": [],
+  "tags": [],
+  "tenantId": null
+}
