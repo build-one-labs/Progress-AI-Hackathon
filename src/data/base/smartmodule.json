@@ -6,7 +6,9 @@
     "moduleName": "B1 Automation Flows",
     "productGuid": "b4082505-d6a7-8eb1-4314-3963ac86a99e",
     "systemOwned": false,
-    "modulePackage": null
+    "createdBy": null,
+    "modulePackage": null,
+    "tenantId": null
   },
   {
     "moduleDataFolder": "Hackathon",
@@ -15,6 +17,19 @@
     "moduleName": "Hackathon",
     "modulePackage": "Hackathon",
     "productGuid": "25939fd8-5643-4829-92c2-6cf1eaef48b3",
-    "systemOwned": false
+    "systemOwned": false,
+    "createdBy": null,
+    "tenantId": null
+  },
+  {
+    "moduleDataFolder": "mini-app-sample",
+    "moduleDescription": "Mini App Sample Application",
+    "moduleGuid": "4722bdb3-b17d-4bb0-9855-3383b82cca76",
+    "moduleName": "mini-app-sample",
+    "modulePackage": "mini-app-sample",
+    "productGuid": "e8a832d8-0365-4c4c-971b-6dd3c0ca6d94",
+    "systemOwned": false,
+    "createdBy": null,
+    "tenantId": null
   }
 ]
