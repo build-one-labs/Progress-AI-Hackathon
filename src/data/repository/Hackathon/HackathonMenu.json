@@ -1,0 +1,138 @@
+{
+  "createdAt": "2026-03-26 15:56:49.425319",
+  "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
+  "objectDescription": "AI Hackathon application menu",
+  "objectExtension": "",
+  "objectMasterGuid": "c08b0fba-da13-4e38-a307-0b21e694aadd",
+  "objectName": "HackathonMenu",
+  "objectPackage": "",
+  "objectTypeGuid": "697af4f7-4f36-46a9-aef0-16088ab1c4c4",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "label": "AI Hackathon",
+    "smallImage": "i-lucide-rocket"
+  },
+  "instances": [
+    {
+      "containerObjectMasterGuid": "c08b0fba-da13-4e38-a307-0b21e694aadd",
+      "instanceName": "Home",
+      "objectInstanceGuid": "82b4c08c-94cb-41fc-bbc2-cf33b348554f",
+      "objectMasterGuid": "8c740703-547f-442f-a006-39fc99e22673",
+      "objectSequence": 1,
+      "attributes": {
+        "actionParameter": "miniAppHome",
+        "actionType": "Launch",
+        "label": "Home",
+        "smallImage": "i-lucide-house"
+      },
+      "attrs": {
+        "actionParameter": "aiHackathonHome"
+      },
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+      "instanceName": "SharedApps",
+      "objectInstanceGuid": "ea8412c7-6ca6-416b-a14e-b648a5e079f2",
+      "objectMasterGuid": "0ac5604b-870c-4d6e-8876-f0b9b3bab0d7",
+      "objectSequence": 2,
+      "attributes": {
+        "label": "Shared Apps",
+        "smallImage": "i-lucide-share-2"
+      },
+      "instances": [
+        {
+          "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+          "instanceName": "Products",
+          "objectInstanceGuid": "ff7772c4-5c19-4826-a46e-fa3640bea8bd",
+          "objectMasterGuid": "8c740703-547f-442f-a006-39fc99e22673",
+          "objectSequence": 1,
+          "attributes": {
+            "actionParameter": "productsSearch",
+            "actionType": "Launch",
+            "label": "Products",
+            "smallImage": "i-lucide-package"
+          },
+          "instances": []
+        }
+      ]
+    },
+    {
+      "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+      "instanceName": "Security",
+      "objectInstanceGuid": "e6429f67-ec4e-4867-a762-1ad794f6d3c9",
+      "objectMasterGuid": "0ac5604b-870c-4d6e-8876-f0b9b3bab0d7",
+      "objectSequence": 3,
+      "attributes": {
+        "label": "Admin",
+        "smallImage": "i-lucide-shield"
+      },
+      "instances": [
+        {
+          "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+          "instanceName": "Users",
+          "objectInstanceGuid": "9479ec3c-4b73-4295-98cf-e0d6d11c2927",
+          "objectMasterGuid": "8c740703-547f-442f-a006-39fc99e22673",
+          "objectSequence": 1,
+          "attributes": {
+            "actionParameter": "usersSearch",
+            "actionType": "Launch",
+            "label": "Users",
+            "smallImage": "i-lucide-users"
+          },
+          "instances": []
+        },
+        {
+          "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+          "instanceName": "Organizations",
+          "objectInstanceGuid": "157d77ef-2324-43a6-b6b9-038f6ac80088",
+          "objectMasterGuid": "8c740703-547f-442f-a006-39fc99e22673",
+          "objectSequence": 2,
+          "attributes": {
+            "actionParameter": "OrganizationSearch",
+            "actionType": "Launch",
+            "label": "Organizations",
+            "smallImage": "i-lucide-building-2"
+          },
+          "instances": []
+        },
+        {
+          "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+          "instanceName": "Projects",
+          "objectInstanceGuid": "05e5a9a4-e05a-44bd-8eb9-e8e1563d739a",
+          "objectMasterGuid": "8c740703-547f-442f-a006-39fc99e22673",
+          "objectSequence": 3,
+          "attributes": {
+            "actionParameter": "ProjectsSearchScreen",
+            "actionType": "Launch",
+            "label": "Projects",
+            "smallImage": "i-lucide-folder-open"
+          },
+          "instances": []
+        },
+        {
+          "containerObjectMasterGuid": "eccdafae-5e46-4ad5-91df-fda659cd49a0",
+          "instanceName": "Changes",
+          "objectInstanceGuid": "8e54dec3-4907-4266-b341-b74a32ec1ef6",
+          "objectMasterGuid": "8c740703-547f-442f-a006-39fc99e22673",
+          "objectSequence": 4,
+          "attributes": {
+            "actionParameter": "changesSearch",
+            "actionType": "Launch",
+            "label": "Changes",
+            "smallImage": "i-lucide-arrow-left-right"
+          },
+          "instances": []
+        }
+      ]
+    }
+  ],
+  "links": [],
+  "tags": [],
+  "tenantId": null
+}

@@ -14,7 +14,7 @@
   "templateObject": false,
   "attributes": {
     "colorScheme": "light",
-    "initialScreen": "aiHackathonHome",
+    "initialScreen": "HackathonSidebarScreen",
     "logoLarge": "",
     "logoSmall": "",
     "mainLayoutScreen": "taskbarMainLayout"
