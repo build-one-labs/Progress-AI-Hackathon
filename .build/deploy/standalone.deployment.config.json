@@ -1,9 +1,9 @@
 {
   "$schema": "deployment.config.schema.json",
   "globals": {
-    "dataImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/ai-hackathon/ai-hackathon-data:${VERSION}",
-    "appServerTsImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/ai-hackathon/ai-hackathon-app-server-ts:${VERSION}",
-    "webAppImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/ai-hackathon/ai-hackathon-web-app:${VERSION}"
+    "dataImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/b1-apps/ai-hackathon-data:${VERSION}",
+    "appServerTsImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/b1-apps/ai-hackathon-app-server-ts:${VERSION}",
+    "webAppImage": "653306034207.dkr.ecr.eu-central-1.amazonaws.com/b1-apps/ai-hackathon-web-app:${VERSION}"
   },
   "services": {
     "swat_app_server_ts": {
