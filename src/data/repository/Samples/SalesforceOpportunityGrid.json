@@ -1,0 +1,80 @@
+{
+  "createdAt": "2026-04-20 10:23:39.035315",
+  "deploymentType": "",
+  "howToUse": "",
+  "moduleGuid": "f02fc887-f0a3-4425-a7ca-91acb2cdc9d4",
+  "objectDescription": "Grid displaying Salesforce Opportunity records",
+  "objectExtension": "",
+  "objectMasterGuid": "8692c6e9-a8d3-42be-9fd6-0888b51518ea",
+  "objectName": "SalesforceOpportunityGrid",
+  "objectPackage": "",
+  "objectTypeGuid": "63d81ac2-8555-44e1-9032-7064448799c4",
+  "runnableFromMenu": false,
+  "staticObject": false,
+  "templateObject": false,
+  "attributes": {
+    "enabled": true
+  },
+  "createdBy": null,
+  "instances": [
+    {
+      "instanceName": "Name",
+      "objectInstanceGuid": "9ad272ef-a40d-45b2-90c5-32ab4c57f236",
+      "objectMasterGuid": "11ba27c0-a259-4df5-8752-2a7fd4f08242",
+      "objectSequence": 1,
+      "attributes": {
+        "label": "Opportunity Name"
+      },
+      "instances": []
+    },
+    {
+      "instanceName": "StageName",
+      "objectInstanceGuid": "8ec2a0c6-6889-4326-a59f-5376fc80eefc",
+      "objectMasterGuid": "11ba27c0-a259-4df5-8752-2a7fd4f08242",
+      "objectSequence": 2,
+      "attributes": {
+        "label": "Stage"
+      },
+      "instances": []
+    },
+    {
+      "instanceName": "Amount",
+      "objectInstanceGuid": "8aa504d9-b7ea-4bad-8c48-5c52872b0b98",
+      "objectMasterGuid": "11ba27c0-a259-4df5-8752-2a7fd4f08242",
+      "objectSequence": 3,
+      "attributes": {
+        "dataType": "DECIMAL",
+        "enabled": true,
+        "label": "Amount"
+      },
+      "instances": []
+    },
+    {
+      "instanceName": "CloseDate",
+      "objectInstanceGuid": "644ccbba-288e-4981-a0d0-625b412f0927",
+      "objectMasterGuid": "11ba27c0-a259-4df5-8752-2a7fd4f08242",
+      "objectSequence": 4,
+      "attributes": {
+        "dataType": "DATE",
+        "label": "Close Date"
+      },
+      "instances": []
+    },
+    {
+      "containerObjectMasterGuid": "8692c6e9-a8d3-42be-9fd6-0888b51518ea",
+      "instanceName": "Probability",
+      "objectInstanceGuid": "e790bb02-df1c-4954-bd91-fc8f4eb9787e",
+      "objectMasterGuid": "cae63c58-4672-12bb-db14-ba366082c914",
+      "objectSequence": 5,
+      "attributes": {
+        "enabled": false,
+        "label": "Probability (%)",
+        "visualizationType": "PROGRESS"
+      },
+      "instances": []
+    }
+  ],
+  "links": [],
+  "tags": [],
+  "tenantId": null
+}

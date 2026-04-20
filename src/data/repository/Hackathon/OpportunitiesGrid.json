@@ -15,6 +15,7 @@
   "attributes": {
     "borderTitle": "Opportunities"
   },
+  "createdBy": null,
   "instances": [
     {
       "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
@@ -47,21 +48,31 @@
       "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
       "instanceName": "STAGENAME",
       "objectInstanceGuid": "0f1ef312-e6f0-4910-83a5-f1544e5aef34",
-      "objectMasterGuid": "868fa158-d07a-4242-ae56-3cad13faf085",
+      "objectMasterGuid": "db14123d-bce5-6e8c-db14-eb31e8938d17",
       "objectSequence": 4,
-      "attributes": {},
+      "attributes": {
+        "enabled": "true",
+        "label": "Stage",
+        "optionsList": "Prospecting,Qualification,Needs Analysis,Proposal,Negotiation,Closed Won,Closed Lost",
+        "optionsListTypes": "Closed Won:success,Closed Lost:danger,Negotiation:warn,Prospecting:info,Qualification:info,Needs Analysis:info,Proposal:warn"
+      },
       "instances": []
     },
     {
       "containerObjectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
       "instanceName": "PROBABILITY",
       "objectInstanceGuid": "fb7b436d-b1c5-40cd-a345-66478d85e724",
-      "objectMasterGuid": "437e64f5-ad5e-4bd1-883f-83d90a67585e",
+      "objectMasterGuid": "cae63c58-4672-12bb-db14-ba366082c914",
       "objectSequence": 5,
-      "attributes": {},
+      "attributes": {
+        "enabled": false,
+        "label": "Probability (%)",
+        "visualizationType": "PROGRESS"
+      },
       "instances": []
     }
   ],
   "links": [],
-  "tags": []
+  "tags": [],
+  "tenantId": null
 }
