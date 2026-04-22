@@ -19,6 +19,8 @@ This creates an architecture in which AI can assemble governed enterprise interf
 
 ## What We Built
 
+`Don't give users another chatbot. Give them the right app, exactly when they need it.`
+
 Our core idea is simple:
 
 Users should not have to jump between many different enterprise tools to complete one job.
@@ -77,7 +79,7 @@ We wanted to show a better pattern:
 
 ## Our Approach: Mini-Apps Instead of Chat Replies
 
-The project follows the Build.One idea of `mini-apps, not chat replies` as described on the Build.One website. In practice, that means:
+In this project, we use a `mini-apps, not chat replies` approach. In practice, that means:
 
 - the user formulates the need in plain language
 - the system identifies the right data, UI components, and actions
@@ -107,9 +109,10 @@ Our implementation strategy is based on a shared abstraction layer:
 In practical terms, that means:
 
 - the generated mini-app does not need to know whether its data comes from `OpenEdge`, `PASOE`, or `DataDirect HDP`
-- the Build.One agent can generate a blueprint that references governed data objects and screens
-- the runtime resolves those objects through the correct connector path
-- each target integration translates standard concepts like query, filter, and paging into the source-specific protocol
+- the Build.One agent can generate a blueprint that references governed data objects and screens, including data sources backed by `HDP`
+- for `DataDirect HDP`, the agent creates a focused micro-connector that understands the Build.One-side query model and translates it into `OData`
+- the runtime resolves those objects through the correct connector path, for example through the `HDP` micro-connector when the mini-app needs integrated external data
+- each target integration translates standard concepts like query, filter, and paging into the source-specific protocol; in the current prototype, this translation is implemented explicitly for `HDP`
 
 This gives us a flexible architecture in which enterprise systems stay specialized, while the app-generation layer stays consistent.
 
@@ -136,10 +139,6 @@ So while the broader vision is dynamic mini-app generation inside chat, the curr
 From a Progress perspective, the currently visible implementation especially emphasizes the `DataDirect Hybrid Data Pipeline` integration pattern. `OpenEdge` and `PASOE` are the intended system-of-record and business-logic layers in the broader architecture, while the live repo implementation currently demonstrates the connector and mini-app pattern through `HDP` and the Opportunities flow.
 
 ## Demo Story
-
-For the demo, the message is:
-
-`Don't give users another chatbot. Give them the right app, exactly when they need it.`
 
 A strong walkthrough is:
 
@@ -333,11 +332,7 @@ The project combines an AI interaction model with a modern full-stack applicatio
 
 ## Why Build.One
 
-Build.One's public product direction is centered on enterprise AI that delivers mini-apps instead of plain chat responses. That matches our hackathon contribution directly: the chat becomes the orchestration layer, while the outcome is an interactive business interface with real data and governed actions.
-
-In the context of the Progress challenge, this gives us a practical way to combine OpenEdge-focused enterprise architecture with a modern agentic UX instead of treating AI as a separate side experience.
-
-More about the platform: [buildone.io](https://www.buildone.io/)
+Build.One gives us the building blocks for this hackathon contribution: an agent harness, a blueprint-oriented application model, and a rendering layer for mini-app experiences. That makes it a practical foundation for combining OpenEdge-focused enterprise architecture with a modern agentic UX instead of treating AI as a separate side experience.
 
 ## Repository Structure
 
