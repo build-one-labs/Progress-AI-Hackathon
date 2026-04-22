@@ -1,6 +1,6 @@
 # AI Hackathon Build
 
-This repository contains our Build.One submission for the Progress `OpenEdge × AI Innovation Challenge` in EMEA.
+This repository contains our Build.One submission for the Progress `OpenEdge x AI Innovation Challenge` in EMEA.
 
 The special hackathon angle of this project is the integration of Progress technologies into a modern AI-driven application flow. In particular, we highlight how `OpenEdge DB`, `OpenEdge PASOE`, and `DataDirect Hybrid Data Pipeline` can participate in a chat-first architecture where AI does not stop at text, but delivers working mini-apps.
 
@@ -31,7 +31,7 @@ We call these generated interfaces `mini-apps`.
 
 ## Why This Fits The Progress Hackathon
 
-This project is not just an AI interface experiment. It is a practical demonstration of how Progress products can become the operational backbone of a modern AI user experience.
+This project is not just an AI interface experiment. It is a practical prototype showing how Progress products can support a modern AI-driven user experience.
 
 The integrations we especially want to highlight are:
 
@@ -46,7 +46,7 @@ Our submission shows how these kinds of systems can be connected to an AI-driven
 - AI orchestrates the right interface for the user
 - the result is rendered as a mini-app instead of a plain text response
 
-That makes the project highly relevant to the hackathon: it demonstrates how Progress technology can power real AI workflows, not just sit behind a chatbot.
+That makes the project relevant to the hackathon: it shows how Progress technology can participate in practical AI workflows instead of being treated as a disconnected backend.
 
 In our architecture, Progress technologies are part of the overall application model rather than separate downstream integrations.
 
@@ -93,9 +93,9 @@ This is especially useful for roles like sales managers, operations leads, or an
 
 - `Mini-apps instead of chat replies`
   - AI does not stop at explanation. It delivers a working interface for the task.
-- `Progress-native enterprise architecture`
-  - OpenEdge, PASOE, and DataDirect fit naturally into the Build.One runtime model.
-- `AI-created micro-connectors`
+- `Progress-based enterprise architecture`
+  - OpenEdge, PASOE, and DataDirect are integrated into the architecture described in this submission.
+- `AI-assisted micro-connectors`
   - New target systems can be connected through small, focused connectors that share one Build.One-side contract.
 
 ## Integration Approach
@@ -123,7 +123,7 @@ The current prototype demonstrates this concept with a Salesforce opportunities 
 Today, the implemented flow includes:
 
 - a Build.One app module for the hackathon product
-- a custom HDP OData connector in the NestJS backend
+- a custom HDP OData connector in the Node.js backend
 - a Salesforce Opportunities data source wired into Build.One
 - a generated search/screen flow for browsing opportunity data
 - a grid with key sales fields like name, amount, close date, stage, and probability
@@ -154,10 +154,9 @@ This repository is a Yarn workspace monorepo with three main parts:
 
 ### `src/app-server-ts`
 
-NestJS backend with:
+Node.js backend with:
 
 - custom HDP connector (`hdp`)
-- Drizzle ORM integration
 - Build.One API/Core modules
 - server action support for future extensions
 
@@ -198,7 +197,52 @@ The core architecture combines four major layers:
 - `Progress DataDirect Hybrid Data Pipeline`
   - data integration layer
 
-Together, these layers enable a workflow in which AI does not just answer with text, but generates a governed mini-app that can query enterprise systems and render an interactive result immediately.
+Together, these layers support a workflow in which AI does not just answer with text, but can generate a governed mini-app that queries enterprise systems and renders an interactive result.
+
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    user["User in Chat"]
+
+    subgraph ui["UI Layer"]
+        mcp["MCP Connector / App UI"]
+        render["B1 Rendering Engine"]
+        miniapp["Rendered Mini-App"]
+    end
+
+    subgraph b1["B1 Backend"]
+        agent["Agent Harness"]
+        blueprint["Blueprint Storage"]
+        oeconn["OpenEdge Connector"]
+        hdpconn["HDP Connector"]
+    end
+
+    subgraph integration["Integration Layer"]
+        hdp["DataDirect HDP"]
+        ext["Integrated External Sources (e.g. Salesforce)"]
+    end
+
+    subgraph oe["OpenEdge Business Layer"]
+        pasoe["OpenEdge PASOE"]
+        oedb["OpenEdge Database"]
+    end
+
+    user --> mcp
+    mcp --> render
+    render --> miniapp
+    mcp --> agent
+    agent --> blueprint
+    agent -.-> oeconn
+    agent --> hdpconn
+    hdpconn --> hdp
+    hdp --> ext
+    oeconn -.-> pasoe
+    pasoe -.-> oedb
+    blueprint --> render
+```
+
+Solid arrows show the currently visible implementation path in this repository, centered on mini-app rendering and the `HDP` connector flow. Dashed arrows indicate the broader target architecture around `OpenEdge` and `PASOE`.
 
 ## End-to-End Architecture
 
@@ -219,7 +263,7 @@ User in Chat
   -> Build.One agent harness
   -> generated Blueprint
   -> Build.One repository objects (screens, menus, data-source objects, agent config)
-  -> NestJS backend connector layer
+  -> Node.js backend connector layer
   -> DataDirect Hybrid Data Pipeline (OData)
   -> enterprise data source
   -> Build.One mini-app rendered back into the chat
@@ -248,7 +292,7 @@ This is the architectural point we want to make in the hackathon:
 
 ## AI-Created Micro-Connectors
 
-One of the most important ideas in this project is the concept of AI-created micro-connectors.
+One of the central ideas in this project is the concept of AI-assisted micro-connectors.
 
 Instead of building one large, rigid integration layer, the Build.One agent can create focused connectors for specific target systems. These connectors all understand the same Build.One-side contract, for example:
 
@@ -295,18 +339,16 @@ The project combines an AI interaction model with a modern full-stack applicatio
 
 ### Backend
 
-- `NestJS`
+- `Node.js`
 - `TypeScript`
-- `@nestjs/axios` for connector HTTP access
+- `Axios` for connector HTTP access
 - `@buildone/app-server-tslib`
-- `Drizzle ORM`
 
 ### Data & Integration
 
 - `Progress DataDirect Hybrid Data Pipeline` via OData
 - `Progress OpenEdge Database` as the system-of-record layer
 - `Progress OpenEdge PASOE` as the business-logic and application-service layer
-- PostgreSQL for the local/application data layer used by the Build.One starter stack
 
 ### AI / App Composition
 
@@ -324,22 +366,21 @@ The project combines an AI interaction model with a modern full-stack applicatio
 - chat-first interaction model with app generation as the result
 - mini-app rendering concept aligned with the MCP App UI protocol
 - Progress-oriented enterprise integration story centered on OpenEdge, PASOE, and DataDirect Hybrid Data Pipeline
-- NestJS used for backend integration logic
-- Drizzle ORM prepared for structured persistence and future expansion
+- Node.js used for backend integration logic
 - OData query translation implemented for connector-based filtering, sorting, paging, and search
 - declarative screen composition used to expose business data quickly
 - AI agent object already included as a foundation for follow-up assistant capabilities
 
 ## Why Build.One
 
-Build.One gives us the building blocks for this hackathon contribution: an agent harness, a blueprint-oriented application model, and a rendering layer for mini-app experiences. That makes it a practical foundation for combining OpenEdge-focused enterprise architecture with a modern agentic UX instead of treating AI as a separate side experience.
+Build.One gives us the building blocks for this hackathon contribution: an agent harness, a blueprint-oriented application model, and a rendering layer for mini-app experiences. In this project, that provides a practical foundation for combining OpenEdge-focused enterprise architecture with a modern agentic UX instead of treating AI as a separate side experience.
 
 ## Repository Structure
 
 ```text
 .
 |-- src/
-|   |-- app-server-ts/   # NestJS backend, connector, schema, server actions
+|   |-- app-server-ts/   # Node.js backend, connector, schema, server actions
 |   |-- data/            # Build.One product and repository object definitions
 |   `-- web-app/         # Nuxt frontend extending the Build.One framework layer
 |-- package.json
@@ -353,7 +394,6 @@ Build.One gives us the building blocks for this hackathon contribution: an agent
 - Node.js compatible with the workspace setup
 - Yarn 4
 - Access to the required Build.One packages
-- A PostgreSQL database for the application backend
 
 ### Environment
 
