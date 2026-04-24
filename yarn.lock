@@ -882,9 +882,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buildone/app-server-tslib@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/app-server-tslib@npm:24.3.0-VG.199"
+"@buildone/app-server-tslib@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/app-server-tslib@npm:24.3.0-VG.200"
   dependencies:
     "@nestjs/axios": "npm:^4.0.1"
     "@nestjs/common": "npm:^11.1.14"
@@ -929,13 +929,13 @@ __metadata:
     pg: ^8.16.3
     reflect-metadata: ^0.2.2
     rxjs: ^7.8.1
-  checksum: 10c0/c7a81de50f8aeb3f5058f9095bafaa86ecd7f415ca244dd78f81fe113928ef387c1c967c6adea913ae4acf11a2b40a0321ae792d60b10c88e8a6f2d03393738b
+  checksum: 10c0/8b7bf98d0f8d7422df3a55e5ad904bd2b5b40fa8581a2ec7b19ab6fbc563ea8f680eecb41603466c02b43e7c89f7395bdf45572be2b38eb6dad7fa371b138d7c
   languageName: node
   linkType: hard
 
-"@buildone/swat-cli@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/swat-cli@npm:24.3.0-VG.199"
+"@buildone/swat-cli@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/swat-cli@npm:24.3.0-VG.200"
   dependencies:
     js-yaml: "npm:^4.1.0"
     minimist: "npm:^1.2.8"
@@ -943,27 +943,27 @@ __metadata:
   bin:
     b1: bin/build-one.mjs
     build-one: bin/build-one.mjs
-  checksum: 10c0/66719e884805093a89b8fddaabe084feb8373b8d6adde5a67d7416ff1d2b75f5745ba26dd01fd7731738b616a4c27c0271ecae2083bd46b690a3005320607d6d
+  checksum: 10c0/7a3996ece11d1e588e50eafa17d5d42df8034b8890f074f095e83034afd71345ad5a93d19a2d31dce7c6502d475a5ca63470ca3fc7e90a4a400fc4294603278b
   languageName: node
   linkType: hard
 
-"@buildone/swat-data@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/swat-data@npm:24.3.0-VG.199"
-  checksum: 10c0/aa311c19d726efcab07b32d4a2cfcb1cb5fb926761748a9f93002976235d000f03ed623413060a8563416d06fa369b4ca39566329624d2f4322e143c89bbc004
+"@buildone/swat-data@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/swat-data@npm:24.3.0-VG.200"
+  checksum: 10c0/f855e3f8724d26544f85332311eddf151f6b47a1f27804255736f8a20d320c467366bef42e6bb9cca46b55cfec15f4ebe48a1159a8e7bc3e604537028d34716f
   languageName: node
   linkType: hard
 
-"@buildone/swat-vscode@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/swat-vscode@npm:24.3.0-VG.199"
-  checksum: 10c0/d3166474a6ef9d13e7ccafeae7ab726d391891a5e31fa8e1604f75653b1a2259bb73f69b00387227c71faf6daee807d70a8f853063f21675e433a495a3e7503c
+"@buildone/swat-vscode@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/swat-vscode@npm:24.3.0-VG.200"
+  checksum: 10c0/4b067349caa4ba7f4f68782d607ecd47a921f84cea9d8f2879cc8a1e5e1ced82f37784ac5624c905a5aa86dc5e6b2a562950e3be4c028ec9df59e1f16edf42f5
   languageName: node
   linkType: hard
 
-"@buildone/web-core@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/web-core@npm:24.3.0-VG.199"
+"@buildone/web-core@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/web-core@npm:24.3.0-VG.200"
   dependencies:
     "@dagrejs/dagre": "npm:^1.1.4"
     "@floating-ui/dom": "npm:^1.7.5"
@@ -1013,16 +1013,16 @@ __metadata:
     primevue: ^4.4.1
     vue: ^3.5.22
     vue-i18n: ^10.0.7
-  checksum: 10c0/ff8afc0f696daf986d000b34783905a4e4854287f520494e26ba2f0551cf1f230545a903448069765728291de031a57d6bdb68ebcfef7dbde2cabd777a528919
+  checksum: 10c0/6c6dadcea920090ecf58ad5313c873b65dab4790042d6f2426c82fe908ded8728e54d854910959d8ace221b20e69aaa9cb33381c6e08412b247713ffa9dd4f65
   languageName: node
   linkType: hard
 
-"@buildone/web-framework-layer@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/web-framework-layer@npm:24.3.0-VG.199"
+"@buildone/web-framework-layer@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/web-framework-layer@npm:24.3.0-VG.200"
   dependencies:
-    "@buildone/web-core": "npm:24.3.0-VG.199"
-    "@buildone/web-framework": "npm:24.3.0-VG.199"
+    "@buildone/web-core": "npm:24.3.0-VG.200"
+    "@buildone/web-framework": "npm:24.3.0-VG.200"
     "@iconify-json/fa6-brands": "npm:^1.2.6"
     "@iconify-json/fa6-regular": "npm:^1.2.4"
     "@iconify-json/fa6-solid": "npm:^1.2.4"
@@ -1047,18 +1047,18 @@ __metadata:
     tailwindcss-primeui: "npm:^0.6.1"
     vue: "npm:^3.5.22"
     vue-router: "npm:^4.5.0"
-  checksum: 10c0/b57ff741a1cbb0c0e2437744fb066915b8a276a963865eb1212a2b2ad7c41a3e70c5efaf970b46410e7231a7ebc1691f70ecfae91267ab5077232e3982304321
+  checksum: 10c0/449ba219951380bd13851efbef731e722d449da2d9bb1c3edef525ed3f666f8caf605840ba289bcc4502ecb7c256fdbdd1e2acf4f9d33e2800141eed356f5c26
   languageName: node
   linkType: hard
 
-"@buildone/web-framework@npm:24.3.0-VG.199":
-  version: 24.3.0-VG.199
-  resolution: "@buildone/web-framework@npm:24.3.0-VG.199"
+"@buildone/web-framework@npm:24.3.0-VG.200":
+  version: 24.3.0-VG.200
+  resolution: "@buildone/web-framework@npm:24.3.0-VG.200"
   dependencies:
-    "@buildone/web-core": "npm:24.3.0-VG.199"
+    "@buildone/web-core": "npm:24.3.0-VG.200"
     nuxt: "npm:^4.0.0"
     vue: "npm:^3.5.22"
-  checksum: 10c0/7ead217b88e27ffcc056a6a7b05c624e172600789c89b7050229accacc728b44ae6f146a4e6a3eec84a543748aa332e81ef872241031a8e8427a6d450a6c23eb
+  checksum: 10c0/8e9e61f340672f26eeeef5b5231706f698dfcffd3b9b44bd23320456868a8d44962d64d9893e450eadb9ace4b6ab6ecbd233012306d4870bae5585f536862bf2
   languageName: node
   linkType: hard
 
@@ -9635,7 +9635,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-server-ts@workspace:src/app-server-ts"
   dependencies:
-    "@buildone/app-server-tslib": "npm:24.3.0-VG.199"
+    "@buildone/app-server-tslib": "npm:24.3.0-VG.200"
     "@nestjs/axios": "npm:^4.0.0"
     "@nestjs/cli": "npm:^11.0.0"
     "@nestjs/common": "npm:^11.1.14"
@@ -9694,8 +9694,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
-    "@buildone/swat-cli": "npm:24.3.0-VG.199"
-    "@buildone/swat-vscode": "npm:24.3.0-VG.199"
+    "@buildone/swat-cli": "npm:24.3.0-VG.200"
+    "@buildone/swat-vscode": "npm:24.3.0-VG.200"
     "@eslint/js": "npm:^9.14.0"
     eslint: "npm:^9.19.0"
     eslint-config-prettier: "npm:^10.0.1"
@@ -11956,7 +11956,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "data@workspace:src/data"
   dependencies:
-    "@buildone/swat-data": "npm:24.3.0-VG.199"
+    "@buildone/swat-data": "npm:24.3.0-VG.200"
   languageName: unknown
   linkType: soft
 
@@ -25357,9 +25357,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web-app@workspace:src/web-app"
   dependencies:
-    "@buildone/web-core": "npm:24.3.0-VG.199"
-    "@buildone/web-framework": "npm:24.3.0-VG.199"
-    "@buildone/web-framework-layer": "npm:24.3.0-VG.199"
+    "@buildone/web-core": "npm:24.3.0-VG.200"
+    "@buildone/web-framework": "npm:24.3.0-VG.200"
+    "@buildone/web-framework-layer": "npm:24.3.0-VG.200"
     "@nuxt/eslint": "npm:^1.3.0"
     "@nuxt/image": "npm:1.10.0"
     "@pinia/nuxt": "npm:^0.11.1"
