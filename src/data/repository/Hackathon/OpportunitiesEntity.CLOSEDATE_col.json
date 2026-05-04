@@ -1,16 +1,11 @@
 {
   "createdAt": "2026-04-16 12:47:07.401348",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "Opportunity Close Date column",
-  "objectExtension": "",
   "objectMasterGuid": "e7ed8f0a-19f4-4a70-926d-93df44281c21",
   "objectName": "OpportunitiesEntity.CLOSEDATE_col",
-  "objectPackage": "Hackathon",
   "objectTypeGuid": "3b92f1e0-b3f6-484b-a8c8-a76e3b742c09",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "dataType": "DATE",

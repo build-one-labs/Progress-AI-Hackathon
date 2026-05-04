@@ -1,16 +1,11 @@
 {
   "createdAt": "2026-04-16 11:58:14.387007",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "AI Hackathon Application",
-  "objectExtension": "",
   "objectMasterGuid": "56970b3a-2154-4074-b0bf-7a4f4edf73a5",
   "objectName": "Hackathon",
-  "objectPackage": "",
   "objectTypeGuid": "99c865f6-faf7-4d36-bf0e-5b3c1f4bccd0",
-  "runnableFromMenu": true,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "colorScheme": "light",

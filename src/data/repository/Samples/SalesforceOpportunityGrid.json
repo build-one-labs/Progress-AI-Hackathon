@@ -1,16 +1,11 @@
 {
   "createdAt": "2026-04-20 10:23:39.035315",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "f02fc887-f0a3-4425-a7ca-91acb2cdc9d4",
   "objectDescription": "Grid displaying Salesforce Opportunity records",
-  "objectExtension": "",
   "objectMasterGuid": "8692c6e9-a8d3-42be-9fd6-0888b51518ea",
   "objectName": "SalesforceOpportunityGrid",
-  "objectPackage": "",
   "objectTypeGuid": "63d81ac2-8555-44e1-9032-7064448799c4",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "enabled": true

@@ -1,17 +1,12 @@
 {
   "createdAt": "2026-03-25 09:28:48.535875",
   "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "AI Hackathon Agent",
-  "objectExtension": "",
   "objectMasterGuid": "720e73bc-7eba-48a9-aaa3-cea25cf395e3",
   "objectName": "AiHackathonAgent",
-  "objectPackage": "",
   "objectTypeGuid": "061d6de8-56e1-43c2-9887-8b8892d967e7",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "agentEnvironment": "",
