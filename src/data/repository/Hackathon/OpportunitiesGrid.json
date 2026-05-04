@@ -1,16 +1,11 @@
 {
   "createdAt": "2026-04-16 12:47:20.140516",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "Grid displaying Salesforce Opportunities from HDP connector",
-  "objectExtension": "",
   "objectMasterGuid": "c4dde9e4-ec2b-485e-9bb2-7f4c40a18132",
   "objectName": "OpportunitiesGrid",
-  "objectPackage": "Hackathon",
   "objectTypeGuid": "63d81ac2-8555-44e1-9032-7064448799c4",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "borderTitle": "Opportunities"

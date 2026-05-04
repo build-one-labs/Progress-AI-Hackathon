@@ -1,17 +1,12 @@
 {
   "createdAt": "2026-03-26 15:56:49.425319",
   "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "AI Hackathon application menu",
-  "objectExtension": "",
   "objectMasterGuid": "c08b0fba-da13-4e38-a307-0b21e694aadd",
   "objectName": "HackathonMenu",
-  "objectPackage": "",
   "objectTypeGuid": "697af4f7-4f36-46a9-aef0-16088ab1c4c4",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "label": "AI Hackathon",

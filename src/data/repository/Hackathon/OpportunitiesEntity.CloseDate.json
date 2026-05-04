@@ -1,16 +1,11 @@
 {
   "createdAt": "2026-04-16 12:46:18.073017",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "Opportunity Close Date",
-  "objectExtension": "",
   "objectMasterGuid": "20888f35-9d28-46e0-87d0-01eb5a733cba",
   "objectName": "OpportunitiesEntity.CloseDate",
-  "objectPackage": "Hackathon",
   "objectTypeGuid": "81ab8689-1656-4bde-8797-fc9441cacd7e",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "dataType": "DATE",

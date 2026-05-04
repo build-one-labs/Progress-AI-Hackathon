@@ -1,17 +1,12 @@
 {
   "createdAt": "2026-03-26 15:57:27.215747",
   "createdBy": "zhiWwbU2tdDmrUD9wnt5o91wOXo6AMWf",
-  "deploymentType": "",
   "howToUse": "",
   "moduleGuid": "1994ea5f-c706-4a3b-b959-2074bb2accf5",
   "objectDescription": "AI Hackathon Sidebar Menu Screen",
-  "objectExtension": "",
   "objectMasterGuid": "d9490de7-c80e-44c3-86ff-bf75ae1c0af7",
   "objectName": "HackathonSidebarScreen",
-  "objectPackage": "",
   "objectTypeGuid": "d188099d-8548-49f0-86e4-c4b28dda9ecc",
-  "runnableFromMenu": false,
-  "staticObject": false,
   "templateObject": false,
   "attributes": {
     "childPanels": false,
